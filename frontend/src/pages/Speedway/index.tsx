@@ -2,7 +2,7 @@ import Button from "@mui/material/Button";
 
 import * as S from "./styles";
 
-const Home: React.FC = () => {
+const Speedway: React.FC = () => {
   return (
     <S.Container>
       <div>
@@ -13,4 +13,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Speedway;

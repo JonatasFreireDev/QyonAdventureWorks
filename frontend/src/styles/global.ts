@@ -11,7 +11,6 @@ export default createGlobalStyle`
   body, html, #root{
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
-    height: 100%;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
   }
