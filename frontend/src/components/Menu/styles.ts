@@ -22,8 +22,10 @@ export const Content = styled.aside`
 
    div {
       display: flex;
+      align-items: flex-end;
+      justify-content: end;
       flex-direction: column;
-      margin-top: 15px;
+      height: 100%;
 
       svg {
          margin-bottom: 15px;

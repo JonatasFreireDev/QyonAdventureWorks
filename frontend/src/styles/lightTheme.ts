@@ -3,7 +3,7 @@ import { DefaultTheme } from 'styled-components';
 const lightTheme: DefaultTheme = {
   theme: {
     mainTheme: '#212121',
-    secondTheme: '#212121, 100%',
+    secondTheme: '#21212124',
   },
   button: {
     background: '#212121',
