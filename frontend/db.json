@@ -1,0 +1,62 @@
+{
+  "competitors": [
+    {
+      "id": 1,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 33,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 2,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 3,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 4,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 5,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 6,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 7,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    }
+  ],
+  "raceHistory": [],
+  "speedway": []
+}
