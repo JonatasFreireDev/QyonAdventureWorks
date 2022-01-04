@@ -110,7 +110,7 @@ const History: React.FC = () => {
 
   const deleteRaceHistory = useCallback(
     (id) => async () => {
-      await api.delete(`/competitors/${id}`);
+      await api.delete(`/raceHistory/${id}`);
 
       const newRaceHistorys = raceHistorys.filter(
         (raceHistory) => raceHistory.id !== id

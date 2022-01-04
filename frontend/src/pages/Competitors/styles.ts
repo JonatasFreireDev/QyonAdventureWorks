@@ -40,6 +40,11 @@ export const Boz = styled.div`
   -webkit-box-shadow: 0px 4px 9px -1px rgba(0,0,0,0.46); 
   box-shadow: 0px 4px 9px -1px rgba(0,0,0,0.46);
 
+  &:first-child{
+    background: #1dfc4f;
+    cursor: pointer;
+  }
+
   @media (max-width: 800px)
     {
       &{

@@ -7,6 +7,7 @@ import { ICompetitors } from "../../interfaces/ICompetitors";
 import * as S from "./styles";
 import api from "../../services/api";
 import DeleteIcon from "@mui/icons-material/Delete";
+import { useModal } from "../../hooks/ModalContext";
 
 interface IParams {
   id: number;
@@ -14,6 +15,7 @@ interface IParams {
 
 const Competitors: React.FC = () => {
   const [competitors, setCompetitors] = useState<ICompetitors[]>([]);
+  const { setContentModal } = useModal();
 
   const columnsCompetitor = [
     {
@@ -125,12 +127,22 @@ const Competitors: React.FC = () => {
     [competitors]
   );
 
+  const openInfo = useCallback(() => {
+    setContentModal(<span>aew</span>);
+  }, []);
+
   return (
     <>
       <Header title="Competitors" />
       <S.Container>
         <section>
-          <S.Boz>Dados</S.Boz>
+          <S.Boz
+            onClick={() => {
+              openInfo();
+            }}
+          >
+            Dados
+          </S.Boz>
           <S.Boz>Dados</S.Boz>
         </section>
         <div style={{ height: 600, padding: 50, maxWidth: 800 }}>
