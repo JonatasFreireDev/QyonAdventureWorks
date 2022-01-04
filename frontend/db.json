@@ -4,15 +4,15 @@
       "id": 1,
       "name": "teste1",
       "sex": "M",
-      "averageBodyTemperature": 33,
+      "averageBodyTemperature": 38,
       "weight": 60,
       "height": 1.65
     },
     {
       "id": 2,
-      "name": "teste1",
+      "name": "teste1asd",
       "sex": "M",
-      "averageBodyTemperature": 30,
+      "averageBodyTemperature": 39,
       "weight": 60,
       "height": 1.65
     },
@@ -29,15 +29,15 @@
       "name": "teste1",
       "sex": "M",
       "averageBodyTemperature": 30,
-      "weight": 60,
+      "weight": 90,
       "height": 1.65
     },
     {
       "id": 5,
       "name": "teste1",
-      "sex": "M",
+      "sex": "F",
       "averageBodyTemperature": 30,
-      "weight": 60,
+      "weight": 80,
       "height": 1.65
     },
     {
@@ -55,8 +55,100 @@
       "averageBodyTemperature": 30,
       "weight": 60,
       "height": 1.65
+    },
+    {
+      "id": 8,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 9,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
+    },
+    {
+      "id": 10,
+      "name": "teste1",
+      "sex": "M",
+      "averageBodyTemperature": 30,
+      "weight": 60,
+      "height": 1.65
     }
   ],
-  "raceHistory": [],
-  "speedway": []
+  "raceHistory": [
+    {
+      "id": 1,
+      "competidorId": 14,
+      "speedway": 78,
+      "raceDate": "1996-11-09 08:02:17",
+      "timeSpent": 35
+    },
+    {
+      "id": 2,
+      "competidorId": 9,
+      "speedway": 19,
+      "raceDate": "2066-04-30 12:40:29",
+      "timeSpent": 96
+    },
+    {
+      "id": 3,
+      "competidorId": 51,
+      "speedway": 46,
+      "raceDate": "2033-02-08 04:14:11",
+      "timeSpent": 76
+    },
+    {
+      "id": 4,
+      "competidorId": 16,
+      "speedway": 33,
+      "raceDate": "2073-05-19 13:53:38",
+      "timeSpent": 34
+    },
+    {
+      "id": 5,
+      "competidorId": 1,
+      "speedway": 82,
+      "raceDate": "2025-05-26 05:37:08",
+      "timeSpent": 96
+    },
+    {
+      "id": 6,
+      "competidorId": 72,
+      "speedway": 94,
+      "raceDate": "2002-02-06 17:33:08",
+      "timeSpent": 21
+    }
+  ],
+  "speedway": [
+    {
+      "id": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis odio eleifend posuere ullamcorper. Mauris et efficitur tortor. Suspendisse quis tristique elit. Ut auctor massa gravida libero interdum consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris a purus in nibh mattis luctus vulputate sit amet nunc. Cras congue nisi malesuada, elementum arcu sit amet, scelerisque magna. Nam efficitur pulvinar semper. Nunc ac congue mauris, in placerat tellus."
+    },
+    {
+      "id": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis odio eleifend posuere ullamcorper. Mauris et efficitur tortor. Suspendisse quis tristique elit. Ut auctor massa gravida libero interdum consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris a purus in nibh mattis luctus vulputate sit amet nunc. Cras congue nisi malesuada, elementum arcu sit amet, scelerisque magna. Nam efficitur pulvinar semper. Nunc ac congue mauris, in placerat tellus."
+    },
+    {
+      "id": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis odio eleifend posuere ullamcorper. Mauris et efficitur tortor. Suspendisse quis tristique elit. Ut auctor massa gravida libero interdum consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris a purus in nibh mattis luctus vulputate sit amet nunc. Cras congue nisi malesuada, elementum arcu sit amet, scelerisque magna. Nam efficitur pulvinar semper. Nunc ac congue mauris, in placerat tellus."
+    },
+    {
+      "id": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis odio eleifend posuere ullamcorper. Mauris et efficitur tortor. Suspendisse quis tristique elit. Ut auctor massa gravida libero interdum consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris a purus in nibh mattis luctus vulputate sit amet nunc. Cras congue nisi malesuada, elementum arcu sit amet, scelerisque magna. Nam efficitur pulvinar semper. Nunc ac congue mauris, in placerat tellus."
+    },
+    {
+      "id": 5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis odio eleifend posuere ullamcorper. Mauris et efficitur tortor. Suspendisse quis tristique elit. Ut auctor massa gravida libero interdum consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris a purus in nibh mattis luctus vulputate sit amet nunc. Cras congue nisi malesuada, elementum arcu sit amet, scelerisque magna. Nam efficitur pulvinar semper. Nunc ac congue mauris, in placerat tellus."
+    },
+    {
+      "id": 6,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lobortis odio eleifend posuere ullamcorper. Mauris et efficitur tortor. Suspendisse quis tristique elit. Ut auctor massa gravida libero interdum consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris a purus in nibh mattis luctus vulputate sit amet nunc. Cras congue nisi malesuada, elementum arcu sit amet, scelerisque magna. Nam efficitur pulvinar semper. Nunc ac congue mauris, in placerat tellus."
+    }
+  ]
 }

@@ -5,7 +5,7 @@ export const Container = styled.div`
   color: ${props => props.theme.text.grey};
   padding: 20px;
   margin-left: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   h1{
     font-weight: bold;
