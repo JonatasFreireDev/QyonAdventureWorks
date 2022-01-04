@@ -8,6 +8,7 @@ import * as S from "./styles";
 import api from "../../services/api";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { useModal } from "../../hooks/ModalContext";
+import NewCompetitor from "../../components/Modal/NewCompetitor";
 
 interface IParams {
   id: number;
@@ -127,8 +128,8 @@ const Competitors: React.FC = () => {
     [competitors]
   );
 
-  const openInfo = useCallback(() => {
-    setContentModal(<span>aew</span>);
+  const openModal = useCallback(() => {
+    setContentModal(<NewCompetitor />);
   }, []);
 
   return (
@@ -138,10 +139,10 @@ const Competitors: React.FC = () => {
         <section>
           <S.Boz
             onClick={() => {
-              openInfo();
+              openModal();
             }}
           >
-            Dados
+            New Competitor
           </S.Boz>
           <S.Boz>Dados</S.Boz>
         </section>

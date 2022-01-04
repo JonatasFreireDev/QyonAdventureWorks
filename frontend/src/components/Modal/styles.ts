@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { appearFromTop, appearFromNothing } from '../../styles/keyframes';
 
 export const Container = styled.div`
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.section`
-  position: absolute;
+  position: fixed;
   background: white;
   border-radius: 10px;
   opacity: 1 !important;
