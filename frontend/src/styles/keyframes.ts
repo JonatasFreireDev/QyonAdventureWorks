@@ -24,3 +24,11 @@ from{
   opacity: 1;
   transform: translateY(0px);
 }`;
+
+export const rotate = keyframes`
+  from{
+    transform: rotate(0deg);
+  }to{
+    transform: rotate(360deg);
+  }
+`;
