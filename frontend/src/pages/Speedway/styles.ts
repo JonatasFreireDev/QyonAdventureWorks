@@ -2,13 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  p {
-    text-align: center;
-  }
-  
-  span {
-    margin-top: 10px;
-    font-size: 16px;
+  & > div {
+    width: 100%;
   }
 `;
